@@ -1,9 +1,9 @@
-package OopsRelated;
+package ThisKeyword;
 
 class Human
 {
-    int age;
-    String name;
+    private int age;
+    private String name;
     public int getAge() {
         return age;
     }
