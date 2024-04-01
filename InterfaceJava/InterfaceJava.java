@@ -1,8 +1,5 @@
 package InterfaceJava;
 
-/**
- * A
- */
 interface A {
     int age = 10;
 
