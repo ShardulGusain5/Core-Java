@@ -4,6 +4,7 @@ package AbstractKeyword;
 {
     public abstract void drive();
     public abstract void laugh();
+    public abstract void race();
     public void playMusic()
     {
         System.out.println("Playing music");
@@ -24,6 +25,10 @@ class NextBMW extends BMW
     {
         System.out.println("hahah");
     }
+    public void race()
+    {
+        System.out.println("its racing");
+    }
 }
 public class AbstractKeyword {
     public static void main(String[] args) {
@@ -31,6 +36,7 @@ public class AbstractKeyword {
         obj.playMusic();
         obj.drive();
         obj.laugh();
+        obj.race();
 
     }
 }
