@@ -1,5 +1,5 @@
 package AnonymousInnerClass;
-
+//class that dont have a name
 class A {
     public void show() {
         System.out.println("In A show");

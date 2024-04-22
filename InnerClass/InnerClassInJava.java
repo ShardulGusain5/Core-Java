@@ -6,7 +6,7 @@ class A {
     public void show() {
         System.out.println("I am in A show");
     }
-
+//Inner class can be static and not outer
     static class B {
         public void show() {
             System.out.println("I am in  B show");
