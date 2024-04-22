@@ -1,6 +1,6 @@
 package LamdaExpression;
 
-@FunctionalInterface
+@FunctionalInterface//Interface having just 1 method
 interface A 
 {
     void show(int x);

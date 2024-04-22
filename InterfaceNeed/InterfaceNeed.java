@@ -1,5 +1,6 @@
 package InterfaceNeed;
 
+//For loose coupling
 interface Computer {
     void code();
 }
