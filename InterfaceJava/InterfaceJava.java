@@ -1,5 +1,9 @@
 package InterfaceJava;
 
+//Everymethod in interface are public abstract by default
+//reference of interface can be made 
+//Interface is for designing purpose
+//Ultimately object is of the class hence we need class to implement interface.
 interface A {
     int age = 10;
 
