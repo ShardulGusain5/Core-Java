@@ -9,5 +9,6 @@ class Human{
 public class AnonymousObjects {
     public static void main(String[] args) {
         new Human();
+        Human H = new Human();
     }
 }
