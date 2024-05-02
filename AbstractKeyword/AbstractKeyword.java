@@ -2,6 +2,7 @@ package AbstractKeyword;
 
  abstract class Car 
 {
+    //If a class contain abstract method then it need to be declared abstract
     public abstract void drive();
     public abstract void laugh();
     public abstract void race();
