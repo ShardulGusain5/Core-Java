@@ -9,10 +9,12 @@ class Calculator
     }
     public int add(int a,int b)
     {
+        System.out.println("int, int method is called");
         return a+b;
     }
-    public void add(float a,int b)
+    public void add(double a,int b)
     {
+        System.out.println("float, int method is called");
         System.out.println(a+b);
     }
 }
@@ -22,6 +24,7 @@ public class MethodOverloading {
         int b =20;
         int c =50;
         Calculator C = new Calculator();
+        C.add(10.3, 20);
 
         System.out.println(C.add(a,b,c));
     }
