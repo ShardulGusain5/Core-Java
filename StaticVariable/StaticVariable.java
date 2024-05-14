@@ -11,10 +11,17 @@ class Mobile
     int price;
     String brand;
 
+    //Cant use instance variables in static method directly
     public static void show()
     {
         System.out.println("show is called");
-        System.out.println(p);
+    }
+
+    //Indirectly we can achieve this by passing the object itself
+
+    public static void show1(Mobile m)
+    {
+        System.out.println(m.price);
     }
 }
 
@@ -26,5 +33,6 @@ public class StaticVariable {
         System.out.println(M.name);
         System.out.println(Mobile.name);
         Mobile.show();//can be called without object as it is static
+        Mobile.show1(M);
     }
 }
