@@ -30,7 +30,7 @@ public class ArraysOfObjects {
         students[2]= s3;
 
         for (int i = 0; i < students.length; i++) {
-            System.out.println(students[i].name);
+            System.out.println(students[i].name + students[i].toString());
         }
 
     }
