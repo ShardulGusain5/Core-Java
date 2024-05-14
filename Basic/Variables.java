@@ -1,4 +1,7 @@
 package Basic;
+
+//Variables are like memory container that can hold values 
+//Data types :- Primitive and Non primitive (Stings,Objects,Arrays etc)
 public class Variables {
     public static void main(String[] args) {
         int a = 10;
