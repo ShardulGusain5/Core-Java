@@ -1,5 +1,5 @@
 package Polymorphism;
-//
+//same function but different behaviour , dynamic method dispatch
 class A 
 {
     public void show()
@@ -29,10 +29,14 @@ class C extends A
 
 public class Polymorphism {
     public static void main(String[] args) {
-        A obj = new B();
-        obj.show();
 
+        A obj1 = new A();
+        obj1.show();     //In class A
+        A obj = new B();
+        obj.show();   //In class B  as the object is of type B
+        A obj2 = obj;
         obj = new C();
         obj.show();
+        obj2.show();
     }
 }
