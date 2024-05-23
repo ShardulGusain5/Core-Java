@@ -4,6 +4,7 @@ package InterfaceJava;
 //Reference of interface can be made 
 //Interface is for designing purpose
 //Ultimately object is of the class hence we need class to implement interface.
+//Interface helps in achieving loose coupling
 interface A {
     int age = 10;
     //All the variables by default are static and final
