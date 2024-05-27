@@ -2,7 +2,7 @@ package ProblemSolving.Arrays;
 //Span of array = max-min
 public class SpanOfArray {
     public static void main(String[] args) {
-        int arr[] = {1,8,92,7,3,5};
+        int arr[] = {0,8,92,7,3,5};
         int max=arr[0];
         int min=arr[0];
 
