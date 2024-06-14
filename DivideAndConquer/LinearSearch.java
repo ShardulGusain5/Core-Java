@@ -14,12 +14,14 @@ public class LinearSearch {
     }
 
     public static int linearSearch(int[] arr, int target) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
-                return i; // Return the index of the found element
-            }
+       for(int i =0;i<arr.length;i++)
+       {
+        if(arr[i]==target)
+        {
+            return i;
         }
-        return -1; // Return -1 if the element is not found
+       }
+       return -1;
     }
 }
 
